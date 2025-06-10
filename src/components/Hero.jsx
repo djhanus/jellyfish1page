@@ -26,11 +26,11 @@ export default function Hero() {
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
           <a
             href="#"
-            className="bg-[#d7ff32] text-black font-semibold px-6 py-3 rounded-full hover:bg-lime-300 transition"
+            className="bg-[#CFEF09] text-[#0D062B] font-medium px-6 py-3 rounded-full hover:bg-lime-300 transition"
           >
             Request a demo
           </a>
-          <a href="#" className="text-[#d7ff32] font-semibold px-6 py-3 rounded-full hover:underline transition">
+          <a href="#" className="text-[#CFEF09] font-semibold px-6 py-3 rounded-full hover:underline transition">
             Product tour →
           </a>
         </div>
