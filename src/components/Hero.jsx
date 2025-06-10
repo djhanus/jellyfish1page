@@ -12,15 +12,15 @@ export default function Hero() {
 
       {/* Main Text */}
       <motion.div
-        className="max-w-3xl mx-auto relative z-10"
+        className="max-w-5xl mx-auto relative z-10"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.15]">
           The Leading Software Engineering Intelligence Platform
         </h1>
-        <p className="text-lg text-gray-300 mt-6">
+        <p className="text-xl text-gray-300 mt-7">
           Jellyfish supports every stage of the engineering lifecycle—from planning to delivery to post-mortem impact—so leaders at every level can drive true productivity, not just day-to-day optimization.
         </p>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
@@ -40,7 +40,7 @@ export default function Hero() {
       <motion.img
         src="/dashboard.png"
         alt="Dashboard Screenshot"
-        className="mt-16 mx-auto w-full max-w-6xl shadow-product rounded-xl relative z-10"
+        className="mt-16 mx-auto w-full max-w-7xl shadow-product rounded-xl relative z-10"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
