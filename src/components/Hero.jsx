@@ -3,12 +3,15 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative bg-[#0b0223] text-white px-6 pt-24 pb-32 text-center overflow-hidden">
+
+
       {/* Background Blob Placeholder */}
       <img
         src="/blob.svg"
         alt="Decorative Blob"
         className="absolute top-[50%] md:top-[30%] left-[-10%] w-[120%] max-w-none opacity-1 pointer-events-none animate-float"
       />
+
 
       {/* Main Text */}
       <motion.div
@@ -26,7 +29,7 @@ export default function Hero() {
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
           <a
             href="#"
-            className="bg-[#CFEF09] text-[#0D062B] font-medium px-6 py-3 rounded-full hover:bg-lime-300 transition"
+            className="bg-[#CFEF09] text-[#0D062B] font-semibold px-6 py-3 rounded-full border-2 border-[#CFEF09] hover:bg-transparent hover:text-[#CFEF09] transition-colors duration-200"
           >
             Request a demo
           </a>
@@ -36,7 +39,8 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      {/* Dashboard Image Placeholder */}
+
+      {/* Dashboard Image */}
       <motion.img
         src="/dashboard.png"
         alt="Dashboard Screenshot"
@@ -45,6 +49,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       />
+
 
     </section>
   );

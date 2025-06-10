@@ -73,7 +73,7 @@ export default function UseCases() {
         {/* Scrollable card area */}
         <div
           ref={scrollRef}
-          className="flex gap-10 overflow-x-auto scroll-smooth pb-12 pt-12 pr-2 pl-4 -mr-2 snap-x"
+          className="flex gap-10 overflow-x-auto scroll-smooth pb-12 pt-12 pr-6 pl-4 -mr-2 snap-x hide-scrollbar"
         >
           {useCases.map((card, index) => (
             <div
