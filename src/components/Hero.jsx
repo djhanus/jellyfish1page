@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#0b0223] text-white px-6 pt-24 pb-32 text-center overflow-hidden">
+    <section className="relative bg-[#0D062B] text-white px-6 pt-24 pb-32 text-center overflow-hidden">
 
 
       {/* Background Blob Placeholder */}
