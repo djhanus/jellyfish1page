@@ -7,7 +7,7 @@ export default function Hero() {
       <img
         src="/blob.svg"
         alt="Decorative Blob"
-        className="absolute top-[50%] md:top-[30%] left-[-10%] w-[120%] max-w-none opacity-30 pointer-events-none animate-float"
+        className="absolute top-[50%] md:top-[30%] left-[-10%] w-[120%] max-w-none opacity-1 pointer-events-none animate-float"
       />
 
       {/* Main Text */}

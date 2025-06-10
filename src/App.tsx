@@ -6,10 +6,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main className="font-sans bg-gray-50">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <UseCases />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
