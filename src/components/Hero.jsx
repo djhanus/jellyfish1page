@@ -7,7 +7,7 @@ export default function Hero() {
       <img
         src="/blob.svg"
         alt="Decorative Blob"
-        className="absolute top-0 left-[-10%] w-[120%] max-w-none opacity-30 pointer-events-none animate-float"
+        className="absolute top-[50%] md:top-[30%] left-[-10%] w-[120%] max-w-none opacity-30 pointer-events-none animate-float"
       />
 
       {/* Main Text */}
@@ -17,10 +17,10 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.15]">
-          The Leading Software Engineering Intelligence Platform
+        <h1 className="text-4xl leading-[115%] md:text-6xl font-bold md:leading-[115%]">
+          The Leading Software <br /> Engineering Intelligence Platform
         </h1>
-        <p className="text-xl text-gray-300 mt-7">
+        <p className="text-xl text-gray-300 mt-7 leading-[150%]">
           Jellyfish supports every stage of the engineering lifecycle—from planning to delivery to post-mortem impact—so leaders at every level can drive true productivity, not just day-to-day optimization.
         </p>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
@@ -40,7 +40,7 @@ export default function Hero() {
       <motion.img
         src="/dashboard.png"
         alt="Dashboard Screenshot"
-        className="mt-16 mx-auto w-full max-w-7xl shadow-product rounded-xl relative z-10"
+        className="mt-2 mx-auto w-full max-w-7xl rounded-3xl relative z-10"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
